@@ -1,0 +1,9 @@
+# Getting and Cleaning Data
+## run_analysis.R functionality:
+
+1. Unzip the data from zipped file & move all data sets to the working directory.
+2. Ensure run_analysis.R is in the current working directory.
+3. Use source("run_analysis.R") command in RStudio.
+4. "merged_tr_tst_dat_lab_subj.txt" is the merged dataset that is written out the the working directory.
+5. "subj_act_avgs.txt" is the data frame with the averages per subject & activity.
+6. The result is 6 activities, 30 subjects, & 180 rows. 

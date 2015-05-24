@@ -1,0 +1,21 @@
+# Getting and Cleaning Data
+## CodeBook
+
+#### Full descriptions on site where data was obtained:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+#### Project Data:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+##### The run_analysis.R script reads, merges, transforms, and calculates data to achieve the goals of this assignment. 
+1. Read & store X_train.txt, y_train.txt & subject_train.txt into new variables.
+2. Read & store X_test.txt, y_test.txt & subject_test.txt into new variables.
+3. Merge data, labels, & subject test & training data into 3 separate data frames. 
+4. Read & store features.txt into a new variable. 
+5. Extract measurements on the mean & standard deviation, & clean column names.
+6. Read & store activity_labels.txt into a new variable.
+7. Clean & transform the activity name values.
+8. Combine the joined subject, joined label, & joined data sets by column to create a cleaned data frame. 
+9. Name the first two columns "subject" and "activity", & write out the cleaned file to the working directory.
+10. Use looping functionality to create a tidy set with the averages per activity per subject.
+11. Write out the result to the "subj_act_avgs.txt" file in current working directory.
